@@ -1,0 +1,232 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+
+/* =========================HEADER==========================*/
+.header {}
+
+.header-nav {
+}
+
+.headerlogo { 
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;     
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        
+}
+
+.headeraccent {
+    color: #2E2F42;
+}
+
+
+.header-menu-item {
+}
+ 
+.header-menu-item-link:hover ,
+.header-menu-item-link:focus {
+    color:#404BBF;
+}
+
+.header-menu-item-link {
+    color: #2E2F42;     
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+.header-adress { 
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+}
+
+.header-adress-list {}
+
+.header-adress-item {}
+
+.header-adress-item-link {
+    color: inherit; 
+    
+}
+
+.header-adress-item-link:hover ,
+.header-adress-item-link:focus {
+    color: #404BBF;
+}
+
+/*=====================================================*/
+/* ====================MAIN-PART========================*/
+
+ .main-part {
+    background-color: #2E2F42;
+    text-align: center;
+ }
+ .main-part-title {
+    color:#FFF;      
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;        
+    letter-spacing: 0.02em;
+ }
+
+.main-title-button {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color:#4D5AE5;
+    cursor: pointer;
+}
+
+   
+.main-title-button:hover,
+.main-title-button:focus {
+    background-color: #404BBF;
+}
+
+ 
+
+/* ============================================================*/
+/* =========================ADVANTAGES=========================*/
+
+
+.advantages {}
+
+.advantages-main-title {
+    visibility: hidden;
+}
+
+.list-advantages {}
+
+.list-advantages-item {}
+
+.advantages-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* =============================================================*/
+/* ===================================TEAM=======================*/
+
+.team {
+  background-color:#F4F4FD;
+}
+
+.section-team-title {
+    color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
+.team-name-title {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-occupation-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ============================================================*/
+/* =========================PORTFOLIO==========================*/
+
+.portfolio {}
+
+.section-portfolio-title {
+    color: #2E2F42;
+    font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-title {
+    color: #2E2F42;
+    font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ===============================================================*/
+/* ============================FOOTER==============================*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footerlogo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footeraccent {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
