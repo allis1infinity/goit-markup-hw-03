@@ -1,20 +1,73 @@
+*,
+::after,
+::before {
+    box-sizing: content-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFF;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+}
+
 a {
     text-decoration: none;
+    color: currentColor;    
 }
+
 li {
     list-style-type: none;
 }
 
+button {
+    cursor: pointer;
+}
+ 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
+}
+
 
 /* =========================HEADER==========================*/
-.header {}
+.header {
+
+ }
+.container-header{
+    display: flex;
+    align-items: center;
+   
+}
+
+
 
 .header-nav {
+  display: flex;   
+  align-items: center;  
+  
 }
 
 .headerlogo { 
@@ -25,15 +78,21 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-        
+    margin-right: 76px;  
 }
 
 .headeraccent {
     color: #2E2F42;
 }
 
+.header-menu-list {
+    display: flex;      
+}
 
 .header-menu-item {
+    display: block;
+    padding: 24px;
+
 }
  
 .header-menu-item-link:hover ,
@@ -47,6 +106,8 @@ li {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
 }
 
 
@@ -56,9 +117,15 @@ li {
     font-size: 16px;
     line-height: 1.5;    
     letter-spacing: 0.02em;
+    margin-left: auto;
+
+    
 }
 
-.header-adress-list {}
+.header-adress-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-adress-item {}
 
@@ -78,13 +145,24 @@ li {
  .main-part {
     background-color: #2E2F42;
     text-align: center;
+    
  }
+
+.container-main {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
  .main-part-title {
     color:#FFF;      
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;        
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .main-title-button {
@@ -95,7 +173,11 @@ li {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color:#4D5AE5;
+    border-radius: 4px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
 }
 
    
@@ -110,15 +192,25 @@ li {
 /* =========================ADVANTAGES=========================*/
 
 
-.advantages {}
+.advantages {
+    padding: 120px 0;
+   
+}
 
 .advantages-main-title {
     visibility: hidden;
+
 }
 
-.list-advantages {}
+.list-advantages {
+    display: flex;
+    gap: 24px;
+   
+}
 
-.list-advantages-item {}
+.list-advantages-item {
+    width: calc((100%-24*3)/4);
+}
 
 .advantages-title {
     color: #2E2F42;
@@ -126,6 +218,8 @@ li {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
 }
 
 .advantages-text {
@@ -139,6 +233,7 @@ li {
 
 .team {
   background-color:#F4F4FD;
+  padding: 120px 0;
 }
 
 .section-team-title {
@@ -149,12 +244,29 @@ li {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
-.team-list {}
-
 .team-list-item {
-    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+        background: var(--WHITE, #FFF);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        width: calc ((100%-48)/4);
+    }
+
+.team-photo {
+    margin-bottom: 32px;
+}
+    
+.team-view {
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 32px;
+    text-align: center;    
 }
 
 .team-name-title {
@@ -163,18 +275,22 @@ li {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+      
 }
 
 .team-occupation-text {
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.02em;      
+
 }
 
 /* ============================================================*/
 /* =========================PORTFOLIO==========================*/
 
-.portfolio {}
+.portfolio {
+    padding: 120px 0;
+}
 
 .section-portfolio-title {
     color: #2E2F42;
@@ -184,11 +300,38 @@ li {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    flex-shrink: 2;
+    gap: 48px 24px;
+
+
+    
 }
 
-.portfolio-list {}
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: calc((100%-2*24)/3);
+    padding-bottom: 32px;
+    
+}
 
-.portfolio-item {}
+.portfolio-item-img {
+    margin-bottom: 32px;
+
+}
+.portfolio-view {
+    padding-left: 16px;
+    padding-right: 16px;
+ 
+}
 
 .portfolio-item-title {
     color: #2E2F42;
@@ -196,6 +339,7 @@ li {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -209,6 +353,8 @@ li {
 /* ============================FOOTER==============================*/
 .footer {
     background-color: #2E2F42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footerlogo {
@@ -219,6 +365,8 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 17.5px;
 }
 
 .footeraccent {
