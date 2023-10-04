@@ -196,7 +196,9 @@ img {
 }
 
 .advantages-main-title {
- }
+ 
+
+}
 
 .visually-hidden {
     position: absolute;
@@ -273,9 +275,9 @@ img {
     
 .team-view {
     border-radius: 0px 0px 4px 4px;
+    padding-top: 32px;
     padding-bottom: 32px;
-    padding-bottom: 32px;
-    text-align: center;    
+     
 }
 
 .team-name-title {
@@ -285,13 +287,14 @@ img {
     letter-spacing: 0.02em;
     font-size: 20px;
     margin-bottom: 8px;
-      
+    text-align: center;
 }
 
 .team-occupation-text {
     line-height: 1.5;
     letter-spacing: 0.02em;      
     font-size: 16px;
+    text-align: center;   
 }
 
 /* ============================================================*/
