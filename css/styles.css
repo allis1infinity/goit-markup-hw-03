@@ -88,8 +88,7 @@ img {
 }
 
 .header-menu-item {  
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
  
 .header-menu-item-link:hover ,
@@ -102,7 +101,9 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;  
+    letter-spacing: 0.02em; 
+    padding-top: 24px;
+     padding-bottom: 24px;
 }
 
 
