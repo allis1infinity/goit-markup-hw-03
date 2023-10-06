@@ -102,8 +102,9 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+    display: block;
     padding-top: 24px;
-     padding-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -272,7 +273,7 @@ img {
 }
 
 .team-photo {
-    margin-bottom: 32px;
+    
 }
     
 .team-view {
